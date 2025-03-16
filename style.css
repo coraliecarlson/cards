@@ -1,0 +1,48 @@
+
+#container {
+    padding: 0 15px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: #606c38;
+    background-color: #fefae0;
+    width: 300px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #31572c; 
+    padding-bottom: 0;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+
+p {
+    font-family: "Noto Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    font-size: 14px;
+    padding: 0;
+    margin: 0 5;
+    color: #132a13;
+
+}
+
+.number, .property, .final_action {
+    font-style: bold;
+    font-size: 18px;
+    background-color: #aad576;
+}
+
+
+.source {
+    text-align: right;
+    font-size: 12px;
+}
