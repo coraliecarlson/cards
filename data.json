@@ -1,0 +1,614 @@
+[
+  {
+    "dateTime": "October 5, 2018",
+    "borough": "Bronx",
+    "property": "Van Cortlandt Park",
+    "speciesDescription": "Alligator Snapping Turtle",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "August 13, 2021",
+    "borough": "Queens",
+    "property": "Alley Pond Park",
+    "speciesDescription": "American Alligator",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 22, 2019",
+    "borough": "Staten Island",
+    "property": "Amundsen Circle",
+    "speciesDescription": "American Alligator",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "February 19, 2023",
+    "borough": "Brooklyn",
+    "property": "Prospect Park",
+    "speciesDescription": "American Alligator",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 18, 2021",
+    "borough": "Bronx",
+    "property": "Crotona Park",
+    "speciesDescription": "Argentine Black and White Tegu",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "July 14, 2020",
+    "borough": "Queens",
+    "property": "Queens Bridge Park",
+    "speciesDescription": "Atlantic Canary",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "March 23, 2023",
+    "borough": "Bronx",
+    "property": "Bronx Park",
+    "speciesDescription": "Ball Python",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 9, 2024",
+    "borough": "Bronx",
+    "property": "Pugsley Creek Park",
+    "speciesDescription": "Ball Python",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 3
+  },
+  {
+    "dateTime": "August 2, 2023",
+    "borough": "Bronx",
+    "property": "Van Cortlandt Park",
+    "speciesDescription": "Ball Python",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 26, 2021",
+    "borough": "Bronx",
+    "property": "Van Cortlandt Park",
+    "speciesDescription": "Bearded Dragon",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 1, 2023",
+    "borough": "Manhattan",
+    "property": "Robert Moses Playground",
+    "speciesDescription": "Bearded Dragon",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "March 19, 2024",
+    "borough": "Bronx",
+    "property": "Cedar Playground",
+    "speciesDescription": "Bearded Dragon",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 18, 2020",
+    "borough": "Manhattan",
+    "property": "Morningside Park",
+    "speciesDescription": "Bird (Unknown)",
+    "animalCondition": "N/A",
+    "finalRangerAction": "Advised/Educated others",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 26, 2022",
+    "borough": "Bronx",
+    "property": "Pelham Bay Park",
+    "speciesDescription": "Boa Constrictor",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 1, 2024",
+    "borough": "Queens",
+    "property": "Forest Park",
+    "speciesDescription": "Budgerigar",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "December 13, 2022",
+    "borough": "Queens",
+    "property": "Jackson Pond Playground",
+    "speciesDescription": "Chinchilla",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 28, 2024",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "Chinese Softshell Turtle",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 23, 2021",
+    "borough": "Brooklyn",
+    "property": "Sternberg Park",
+    "speciesDescription": "Chukar",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 6
+  },
+  {
+    "dateTime": "October 12, 2022",
+    "borough": "Brooklyn",
+    "property": "Marine Park",
+    "speciesDescription": "Chukar",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 30, 2024",
+    "borough": "Brooklyn",
+    "property": "Sunset Park",
+    "speciesDescription": "Chukar Partridge",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 18, 2021",
+    "borough": "Bronx",
+    "property": "Van Cortlandt Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 24, 2020",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "August 30, 2019",
+    "borough": "Manhattan",
+    "property": "Central Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 25, 2019",
+    "borough": "Manhattan",
+    "property": "Central Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "April 4, 2019",
+    "borough": "Manhattan",
+    "property": "St. Nicholas Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 16, 2024",
+    "borough": "Bronx",
+    "property": "Pugsley Creek Park",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 2
+  },
+  {
+    "dateTime": "April 29, 2024",
+    "borough": "Bronx",
+    "property": "Cedar Playground",
+    "speciesDescription": "Corn Snake",
+    "animalCondition": "Injured",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 7, 2021",
+    "borough": "Manhattan",
+    "property": "Inwood Hill Park",
+    "speciesDescription": "Coturnix Quail",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 10, 2022",
+    "borough": "Staten Island",
+    "property": "Blue Heron Park",
+    "speciesDescription": "Diamond Dove",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Advised/Educated others",
+    "noOfAnimals": 2
+  },
+  {
+    "dateTime": "October 20, 2022",
+    "borough": "Staten Island",
+    "property": "Blue Heron Park",
+    "speciesDescription": "Diamond Dove",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "July 13, 2023",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "East Asian bullfrog",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 9
+  },
+  {
+    "dateTime": "February 3, 2023",
+    "borough": "Manhattan",
+    "property": "Central Park",
+    "speciesDescription": "Eurasian Eagle-Owl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "February 3, 2023",
+    "borough": "Manhattan",
+    "property": "Central Park",
+    "speciesDescription": "Eurasian Eagle-Owl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 20, 2021",
+    "borough": "Bronx",
+    "property": "Crotona Park",
+    "speciesDescription": "Green Iguana",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "March 31, 2023",
+    "borough": "Bronx",
+    "property": "Parque De Los Ninos",
+    "speciesDescription": "Green Iguana",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "September 29, 2020",
+    "borough": "Queens",
+    "property": "Forest Park",
+    "speciesDescription": "Guineafowl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "July 22, 2023",
+    "borough": "Bronx",
+    "property": "Van Cortlandt Park",
+    "speciesDescription": "Iguana (unknown)",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "August 11, 2022",
+    "borough": "Staten Island",
+    "property": "Lemon Creek Park",
+    "speciesDescription": "Indian Peafowl",
+    "animalCondition": "Injured",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "April 27, 2023",
+    "borough": "Bronx",
+    "property": "Vidalia Park",
+    "speciesDescription": "Indian Peafowl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "August 25, 2023",
+    "borough": "Brooklyn",
+    "property": "Calvert Vaux Park",
+    "speciesDescription": "Indian Peafowl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "February 9, 2024",
+    "borough": "Queens",
+    "property": "Haggerty Park",
+    "speciesDescription": "Kingsnake",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "September 29, 2022",
+    "borough": "Manhattan",
+    "property": "Central Park",
+    "speciesDescription": "Leopard Gecko",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 2
+  },
+  {
+    "dateTime": "October 4, 2023",
+    "borough": "Queens",
+    "property": "Forest Park",
+    "speciesDescription": "Leopard Gecko",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 9, 2022",
+    "borough": "Manhattan",
+    "property": "Fort Tryon Park",
+    "speciesDescription": "Lovebird",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 3
+  },
+  {
+    "dateTime": "June 27, 2020",
+    "borough": "Manhattan",
+    "property": "Morningside Park",
+    "speciesDescription": "Lovebird",
+    "animalCondition": "N/A",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 27, 2018",
+    "borough": "Manhattan",
+    "property": "John V. Lindsay East River Park",
+    "speciesDescription": "Lovebird",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "Advised/Educated others",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "August 24, 2022",
+    "borough": "Brooklyn",
+    "property": "Marine Park",
+    "speciesDescription": "Ornate Box Turtle",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 30, 2024",
+    "borough": "Queens",
+    "property": "Al Oerter Recreation Center",
+    "speciesDescription": "Painted Turtle",
+    "animalCondition": "Injured",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "September 26, 2021",
+    "borough": "Manhattan",
+    "property": "Riverside Park South",
+    "speciesDescription": "Parrot (Unknown)",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Advised/Educated others",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "July 10, 2019",
+    "borough": "Bronx",
+    "property": "Mapes Pool",
+    "speciesDescription": "Parrot (Unknown)",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 18, 2019",
+    "borough": "Bronx",
+    "property": "Bronx Park",
+    "speciesDescription": "Peafowl",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 7, 2021",
+    "borough": "Manhattan",
+    "property": "Randall's Island Park",
+    "speciesDescription": "Peking Duck",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 17, 2024",
+    "borough": "Brooklyn",
+    "property": "Marine Park",
+    "speciesDescription": "Russian Tortoise",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "April 8, 2023",
+    "borough": "Queens",
+    "property": "Bowne Park",
+    "speciesDescription": "Soft-shelled Turtle",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Submitted for DEC Testing",
+    "noOfAnimals": 2
+  },
+  {
+    "dateTime": "September 29, 2020",
+    "borough": "Manhattan",
+    "property": "East River Esplanade",
+    "speciesDescription": "Softshell Turtle",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "March 4, 2023",
+    "borough": "Queens",
+    "property": "Kissena Park",
+    "speciesDescription": "Softshell Turtle",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "February 10, 2024",
+    "borough": "Staten Island",
+    "property": "Crescent Beach Park",
+    "speciesDescription": "Softshell Turtle",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 2, 2021",
+    "borough": "Staten Island",
+    "property": "Freshkills Park",
+    "speciesDescription": "Spiny Softshell Turtle",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Rehabilitator",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "May 27, 2022",
+    "borough": "Bronx",
+    "property": "Pelham Bay Park",
+    "speciesDescription": "Sun Conure",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "September 12, 2019",
+    "borough": "Queens",
+    "property": "Kissena Park",
+    "speciesDescription": "Tortoise (Unknown)",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "April 26, 2021",
+    "borough": "Staten Island",
+    "property": "Willowbrook Park",
+    "speciesDescription": "Yellow-bellied Slider",
+    "animalCondition": "Injured",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "June 8, 2020",
+    "borough": "Brooklyn",
+    "property": "Marine Park",
+    "speciesDescription": "Yellow-bellied Slider",
+    "animalCondition": "Unhealthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "October 31, 2019",
+    "borough": "Brooklyn",
+    "property": "Marine Park",
+    "speciesDescription": "Yellow-bellied Slider",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "September 6, 2022",
+    "borough": "Bronx",
+    "property": "Joyce Kilmer Park",
+    "speciesDescription": "Yellow-bellied Slider",
+    "animalCondition": "Injured",
+    "finalRangerAction": "ACC",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "July 19, 2023",
+    "borough": "Brooklyn",
+    "property": "Prospect Park",
+    "speciesDescription": "Yellow-Bellied Slider",
+    "animalCondition": "DOA",
+    "finalRangerAction": "Relocated/Condition Corrected",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "November 23, 2020",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "Yellow-headed Blackbird",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "November 23, 2020",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "Yellow-headed Blackbird",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  },
+  {
+    "dateTime": "November 23, 2020",
+    "borough": "Queens",
+    "property": "Flushing Meadows Corona Park",
+    "speciesDescription": "Yellow-headed Blackbird",
+    "animalCondition": "Healthy",
+    "finalRangerAction": "Monitored Animal",
+    "noOfAnimals": 1
+  }
+]
