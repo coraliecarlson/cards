@@ -11,8 +11,25 @@
     <style>
     </style>
 </head>
+<h2>Exotic Animal Calls to Wildlife Rangers in NYC</h2>
 <body>
+  <select id="filterDropdown">
+    <option value="all">All</option>
+    <option value="Manhattan">Manhattan</option>
+    <option value="Brooklyn">Brooklyn</option>
+    <option value="Queens">Queens</option>
+    <option value="Bronx">Bronx</option>
+    <option value="Staten Island">Staten Island</option>
+</select>
+<select id="filterDropdownAnimal">
+  <option value="all">All</option>
+  <option value="reptile">Reptile</option>
+  <option value="bird">Bird</option>
+  <option value="amphibian">Amphibian</option>
+  <option value="mammal">Mammal</option>
+</select>
     <div id="container">
+
         
     </div>
 
@@ -27,7 +44,8 @@ const rangerCalls = [
     speciesDescription: "Alligator Snapping Turtle",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "August 13, 2021",
@@ -36,7 +54,8 @@ const rangerCalls = [
     speciesDescription: "American Alligator",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: 'reptile'
   },
   {
     dateTime: "October 22, 2019",
@@ -45,7 +64,8 @@ const rangerCalls = [
     speciesDescription: "American Alligator",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "February 19, 2023",
@@ -54,7 +74,8 @@ const rangerCalls = [
     speciesDescription: "American Alligator",
     animalCondition: "Unhealthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 18, 2021",
@@ -63,7 +84,8 @@ const rangerCalls = [
     speciesDescription: "Argentine Black and White Tegu",
     animalCondition: "Unhealthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "July 14, 2020",
@@ -72,7 +94,8 @@ const rangerCalls = [
     speciesDescription: "Atlantic Canary",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "March 23, 2023",
@@ -81,7 +104,8 @@ const rangerCalls = [
     speciesDescription: "Ball Python",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 9, 2024",
@@ -90,7 +114,8 @@ const rangerCalls = [
     speciesDescription: "Ball Python",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 3
+    noOfAnimals: 3,
+    animalType: "reptile"
   },
   {
     dateTime: "August 2, 2023",
@@ -99,7 +124,8 @@ const rangerCalls = [
     speciesDescription: "Ball Python",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 26, 2021",
@@ -108,7 +134,8 @@ const rangerCalls = [
     speciesDescription: "Bearded Dragon",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 1, 2023",
@@ -117,7 +144,8 @@ const rangerCalls = [
     speciesDescription: "Bearded Dragon",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "March 19, 2024",
@@ -126,7 +154,8 @@ const rangerCalls = [
     speciesDescription: "Bearded Dragon",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 18, 2020",
@@ -135,7 +164,8 @@ const rangerCalls = [
     speciesDescription: "Bird (Unknown)",
     animalCondition: "N/A",
     finalRangerAction: "Advised/Educated others",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "June 26, 2022",
@@ -144,7 +174,8 @@ const rangerCalls = [
     speciesDescription: "Boa Constrictor",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 1, 2024",
@@ -153,7 +184,8 @@ const rangerCalls = [
     speciesDescription: "Budgerigar",
     animalCondition: "Unhealthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "December 13, 2022",
@@ -162,7 +194,8 @@ const rangerCalls = [
     speciesDescription: "Chinchilla",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "mammal"
   },
   {
     dateTime: "May 28, 2024",
@@ -171,7 +204,8 @@ const rangerCalls = [
     speciesDescription: "Chinese Softshell Turtle",
     animalCondition: "Healthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 23, 2021",
@@ -180,7 +214,8 @@ const rangerCalls = [
     speciesDescription: "Chukar",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 6
+    noOfAnimals: 6,
+    animalType: "bird"
   },
   {
     dateTime: "October 12, 2022",
@@ -189,7 +224,8 @@ const rangerCalls = [
     speciesDescription: "Chukar",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "May 30, 2024",
@@ -198,7 +234,8 @@ const rangerCalls = [
     speciesDescription: "Chukar Partridge",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "May 18, 2021",
@@ -207,7 +244,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 24, 2020",
@@ -216,7 +254,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "August 30, 2019",
@@ -225,7 +264,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 25, 2019",
@@ -234,7 +274,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "April 4, 2019",
@@ -243,7 +284,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 16, 2024",
@@ -252,7 +294,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 2
+    noOfAnimals: 2,
+    animalType: "reptile"
   },
   {
     dateTime: "April 29, 2024",
@@ -261,7 +304,8 @@ const rangerCalls = [
     speciesDescription: "Corn Snake",
     animalCondition: "Injured",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "October 7, 2021",
@@ -270,7 +314,8 @@ const rangerCalls = [
     speciesDescription: "Coturnix Quail",
     animalCondition: "Unhealthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "October 10, 2022",
@@ -279,7 +324,8 @@ const rangerCalls = [
     speciesDescription: "Diamond Dove",
     animalCondition: "Healthy",
     finalRangerAction: "Advised/Educated others",
-    noOfAnimals: 2
+    noOfAnimals: 2,
+    animalType: "bird"
   },
   {
     dateTime: "October 20, 2022",
@@ -288,7 +334,8 @@ const rangerCalls = [
     speciesDescription: "Diamond Dove",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "July 13, 2023",
@@ -297,7 +344,8 @@ const rangerCalls = [
     speciesDescription: "East Asian bullfrog",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 9
+    noOfAnimals: 9,
+    animalType: "amphibian"
   },
   {
     dateTime: "February 3, 2023",
@@ -306,7 +354,8 @@ const rangerCalls = [
     speciesDescription: "Eurasian Eagle-Owl",
     animalCondition: "Healthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "February 3, 2023",
@@ -315,7 +364,8 @@ const rangerCalls = [
     speciesDescription: "Eurasian Eagle-Owl",
     animalCondition: "Healthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "October 20, 2021",
@@ -324,7 +374,8 @@ const rangerCalls = [
     speciesDescription: "Green Iguana",
     animalCondition: "Unhealthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "March 31, 2023",
@@ -333,7 +384,8 @@ const rangerCalls = [
     speciesDescription: "Green Iguana",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "September 29, 2020",
@@ -342,7 +394,8 @@ const rangerCalls = [
     speciesDescription: "Guineafowl",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "July 22, 2023",
@@ -351,7 +404,8 @@ const rangerCalls = [
     speciesDescription: "Iguana (unknown)",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "August 11, 2022",
@@ -360,7 +414,8 @@ const rangerCalls = [
     speciesDescription: "Indian Peafowl",
     animalCondition: "Injured",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "April 27, 2023",
@@ -369,7 +424,8 @@ const rangerCalls = [
     speciesDescription: "Indian Peafowl",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "August 25, 2023",
@@ -378,7 +434,8 @@ const rangerCalls = [
     speciesDescription: "Indian Peafowl",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "February 9, 2024",
@@ -387,7 +444,8 @@ const rangerCalls = [
     speciesDescription: "Kingsnake",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "September 29, 2022",
@@ -396,7 +454,8 @@ const rangerCalls = [
     speciesDescription: "Leopard Gecko",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 2
+    noOfAnimals: 2,
+    animalType: "reptile"
   },
   {
     dateTime: "October 4, 2023",
@@ -405,7 +464,8 @@ const rangerCalls = [
     speciesDescription: "Leopard Gecko",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 9, 2022",
@@ -414,7 +474,8 @@ const rangerCalls = [
     speciesDescription: "Lovebird",
     animalCondition: "Healthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 3
+    noOfAnimals: 3,
+    animalType: "bird"
   },
   {
     dateTime: "June 27, 2020",
@@ -423,7 +484,8 @@ const rangerCalls = [
     speciesDescription: "Lovebird",
     animalCondition: "N/A",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "June 27, 2018",
@@ -432,7 +494,8 @@ const rangerCalls = [
     speciesDescription: "Lovebird",
     animalCondition: "Unhealthy",
     finalRangerAction: "Advised/Educated others",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "August 24, 2022",
@@ -441,7 +504,8 @@ const rangerCalls = [
     speciesDescription: "Ornate Box Turtle",
     animalCondition: "Healthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 30, 2024",
@@ -450,7 +514,8 @@ const rangerCalls = [
     speciesDescription: "Painted Turtle",
     animalCondition: "Injured",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "September 26, 2021",
@@ -459,7 +524,8 @@ const rangerCalls = [
     speciesDescription: "Parrot (Unknown)",
     animalCondition: "Healthy",
     finalRangerAction: "Advised/Educated others",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "July 10, 2019",
@@ -468,7 +534,8 @@ const rangerCalls = [
     speciesDescription: "Parrot (Unknown)",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "June 18, 2019",
@@ -477,7 +544,8 @@ const rangerCalls = [
     speciesDescription: "Peafowl",
     animalCondition: "Healthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "October 7, 2021",
@@ -486,7 +554,8 @@ const rangerCalls = [
     speciesDescription: "Peking Duck",
     animalCondition: "Unhealthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "June 17, 2024",
@@ -495,7 +564,8 @@ const rangerCalls = [
     speciesDescription: "Russian Tortoise",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "April 8, 2023",
@@ -504,7 +574,8 @@ const rangerCalls = [
     speciesDescription: "Soft-shelled Turtle",
     animalCondition: "DOA",
     finalRangerAction: "Submitted for DEC Testing",
-    noOfAnimals: 2
+    noOfAnimals: 2,
+    animalType: "reptile"
   },
   {
     dateTime: "September 29, 2020",
@@ -513,7 +584,8 @@ const rangerCalls = [
     speciesDescription: "Softshell Turtle",
     animalCondition: "Unhealthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "March 4, 2023",
@@ -522,7 +594,8 @@ const rangerCalls = [
     speciesDescription: "Softshell Turtle",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "February 10, 2024",
@@ -531,7 +604,8 @@ const rangerCalls = [
     speciesDescription: "Softshell Turtle",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 2, 2021",
@@ -540,7 +614,8 @@ const rangerCalls = [
     speciesDescription: "Spiny Softshell Turtle",
     animalCondition: "Healthy",
     finalRangerAction: "Rehabilitator",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "May 27, 2022",
@@ -549,7 +624,8 @@ const rangerCalls = [
     speciesDescription: "Sun Conure",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "September 12, 2019",
@@ -558,7 +634,8 @@ const rangerCalls = [
     speciesDescription: "Tortoise (Unknown)",
     animalCondition: "Healthy",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "April 26, 2021",
@@ -567,7 +644,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-bellied Slider",
     animalCondition: "Injured",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "June 8, 2020",
@@ -576,7 +654,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-bellied Slider",
     animalCondition: "Unhealthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "October 31, 2019",
@@ -585,7 +664,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-bellied Slider",
     animalCondition: "Healthy",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "September 6, 2022",
@@ -594,7 +674,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-bellied Slider",
     animalCondition: "Injured",
     finalRangerAction: "ACC",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "July 19, 2023",
@@ -603,7 +684,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-Bellied Slider",
     animalCondition: "DOA",
     finalRangerAction: "Relocated/Condition Corrected",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "reptile"
   },
   {
     dateTime: "November 23, 2020",
@@ -612,7 +694,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-headed Blackbird",
     animalCondition: "Healthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "November 23, 2020",
@@ -621,7 +704,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-headed Blackbird",
     animalCondition: "Healthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   },
   {
     dateTime: "November 23, 2020",
@@ -630,7 +714,8 @@ const rangerCalls = [
     speciesDescription: "Yellow-headed Blackbird",
     animalCondition: "Healthy",
     finalRangerAction: "Monitored Animal",
-    noOfAnimals: 1
+    noOfAnimals: 1,
+    animalType: "bird"
   }
 ]
 //make a variable that selects div.container by its id
@@ -647,6 +732,11 @@ const rangerCalls = [
 //add a class to the card divs
     card.classList.add('card');
 
+//add data-borough attribute 
+    card.setAttribute('data-borough', rangerCall.borough); 
+//add data-animalType attribute 
+card.setAttribute('data-animalType', rangerCall.animalType); 
+
 //create a string that contains the content for each rangercall as html
     card.innerHTML = `<h1>${rangerCall.speciesDescription}</h1><p><span class="highlight">${rangerCall.noOfAnimals}</span> reported on ${rangerCall.dateTime}</p><p><span class="highlight">${rangerCall.property}</span> in ${rangerCall.borough}</p><p>Animal Condition: <span class="highlight">${rangerCall.animalCondition}</span></p><p>Final Action: <span class="final_action">${rangerCall.finalRangerAction}</span></p><p class="source">Source: NYC Open Data</p>`
 
@@ -654,6 +744,48 @@ const rangerCalls = [
 //add the html to the <div> element 
     
     container.appendChild(card);
+
+  });
+
+// Get the dropdown elements
+     let boroughDropdown = document.getElementById('filterDropdown');
+     let animalDropdown = document.getElementById('filterDropdownAnimal'); 
+// Add an event listener when the dropdown changes (the function inside this should include the filter value and the two for each loops below)
+
+
+    // Get the selected value in the dropdown
+    boroughDropdown.addEventListener('change', function(){
+
+ let boroughValue = boroughDropdown.value;
+ let animalValue = animalDropdown.value;
+
+ //query select all .card divs
+let cards = document.querySelectorAll('.card');
+
+
+    // Make a for each loop that goes through each .card div
+    cards.forEach(function(card) {
+        //if the dropdown value equals the data-borough of the div, set the display to none
+        if (boroughValue == 'all'){
+        card.style.display = 'block';
+        }
+        else if (boroughValue == card.getAttribute('data-borough')){
+        card.style.display = 'block';
+        }
+        else {
+        card.style.display = 'none'; 
+        }
+        /*if (animalValue == 'all'){
+        card.style.display = 'block';
+        }
+        else if (animalValue == card.getAttribute('data-animalType')){
+        card.style.display = 'block';
+        }
+        else {
+        card.style.display = 'none'; 
+        }  */
+    });
+   
 
 
 });
