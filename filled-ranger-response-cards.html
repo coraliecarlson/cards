@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 1 Demo Empty</title>
+    <title>Exotic Animal Calls in NYC</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
     <style>
     </style>
 </head>
-<h2>Exotic Animal Calls to Wildlife Rangers in NYC</h2>
+<h2>Exotic Animal Calls to Urban Park Rangers in NYC</h2>
 <body>
   <select id="filterDropdown">
     <option value="all">All</option>
@@ -756,37 +756,65 @@ card.setAttribute('data-animalType', rangerCall.animalType);
     // Get the selected value in the dropdown
     boroughDropdown.addEventListener('change', function(){
 
- let boroughValue = boroughDropdown.value;
- let animalValue = animalDropdown.value;
+    let boroughValue = boroughDropdown.value;
+    let animalValue = animalDropdown.value;
 
- //query select all .card divs
+    //query select all .card divs
+    let cards = document.querySelectorAll('.card');
+
+
+        // Make a for each loop that goes through each .card div
+        cards.forEach(function(card) {
+            //if the dropdown value equals the data-borough of the div, set the display to none
+            if (boroughValue == 'all' && animalValue == 'all'){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == 'all' && animalValue == card.getAttribute('data-animalType')){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == card.getAttribute('data-borough') && animalValue == card.getAttribute('data-animalType')){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == card.getAttribute('data-borough') && animalValue == 'all'){
+            card.style.display = 'block';
+            }
+            else {
+            card.style.display = 'none'; 
+            }
+        });
+
+    });
+
+        // Get the selected value in the dropdown
+        animalDropdown.addEventListener('change', function(){
+
+let boroughValue = boroughDropdown.value;
+let animalValue = animalDropdown.value;
+
+//query select all .card divs
 let cards = document.querySelectorAll('.card');
 
 
     // Make a for each loop that goes through each .card div
     cards.forEach(function(card) {
-        //if the dropdown value equals the data-borough of the div, set the display to none
-        if (boroughValue == 'all'){
-        card.style.display = 'block';
-        }
-        else if (boroughValue == card.getAttribute('data-borough')){
-        card.style.display = 'block';
-        }
-        else {
-        card.style.display = 'none'; 
-        }
-        /*if (animalValue == 'all'){
-        card.style.display = 'block';
-        }
-        else if (animalValue == card.getAttribute('data-animalType')){
-        card.style.display = 'block';
-        }
-        else {
-        card.style.display = 'none'; 
-        }  */
-    });
-   
-
+            //if the dropdown value equals the data-borough of the div, set the display to none
+            if (boroughValue == 'all' && animalValue == 'all'){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == 'all' && animalValue == card.getAttribute('data-animalType')){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == card.getAttribute('data-borough') && animalValue == card.getAttribute('data-animalType')){
+            card.style.display = 'block';
+            }
+            else if (boroughValue == card.getAttribute('data-borough') && animalValue == 'all'){
+            card.style.display = 'block';
+            }
+            else {
+            card.style.display = 'none'; 
+            }
+            
+        });
 
 });
 
