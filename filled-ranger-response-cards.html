@@ -11,8 +11,13 @@
     <style>
     </style>
 </head>
-<h2>Exotic Animal Calls to Urban Park Rangers in NYC</h2>
 <body>
+  <div id="big-container">
+  
+  <h1>Exotic Animals Calls to Urban Park Rangers</h1>
+  <p class="intro">Who ya gonna call? If you found an exotic animal in New York City, the answer is Urban Park Rangers. From alligators to parrots to chinchillas, explore the calls about non-native animals found in the Big Apple since 2018.</p>
+  <div class="dropdown">
+  <label for="filterDropdown">Borough</label>
   <select id="filterDropdown">
     <option value="all">All</option>
     <option value="Manhattan">Manhattan</option>
@@ -20,7 +25,9 @@
     <option value="Queens">Queens</option>
     <option value="Bronx">Bronx</option>
     <option value="Staten Island">Staten Island</option>
+  </div>
 </select>
+<label for="filterDropdownAnimal">Animal</label>
 <select id="filterDropdownAnimal">
   <option value="all">All</option>
   <option value="reptile">Reptile</option>
@@ -32,7 +39,8 @@
 
         
     </div>
-
+  </div>
+  
 <script>
 //ranger data 
 
@@ -738,7 +746,7 @@ const rangerCalls = [
 card.setAttribute('data-animalType', rangerCall.animalType); 
 
 //create a string that contains the content for each rangercall as html
-    card.innerHTML = `<h1>${rangerCall.speciesDescription}</h1><p><span class="highlight">${rangerCall.noOfAnimals}</span> reported on ${rangerCall.dateTime}</p><p><span class="highlight">${rangerCall.property}</span> in ${rangerCall.borough}</p><p>Animal Condition: <span class="highlight">${rangerCall.animalCondition}</span></p><p>Final Action: <span class="final_action">${rangerCall.finalRangerAction}</span></p><p class="source">Source: NYC Open Data</p>`
+    card.innerHTML = `<h2>${rangerCall.speciesDescription}</h2><p><span class="highlight">${rangerCall.noOfAnimals}</span> reported on ${rangerCall.dateTime}</p><p><span class="highlight">${rangerCall.property}</span> in ${rangerCall.borough}</p><p>Animal Condition: <span class="highlight">${rangerCall.animalCondition}</span></p><p>Final Action: <span class="final_action">${rangerCall.finalRangerAction}</span></p><p class="source">Source: NYC Open Data</p>`
 
 
 //add the html to the <div> element 
